@@ -1,0 +1,23 @@
+{
+  "name": "kinda-store",
+  "version": "0.1.0",
+  "description": "...",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kinda/kinda-store"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Vila <mvila@3base.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bytewise": "^0.7.0",
+    "kinda-object": "https://github.com/kinda/kinda-object/tarball/master",
+    "kinda-store-mysql": "https://github.com/kinda/kinda-store-mysql/tarball/master",
+    "kinda-store-web-sql": "https://github.com/kinda/kinda-store-web-sql/tarball/master",
+    "lodash": "^2.4.1",
+    "object-is": "0.0.0"
+  }
+}
