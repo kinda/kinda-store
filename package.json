@@ -14,9 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "bytewise": "^0.7.0",
-    "kinda-object": "https://github.com/kinda/kinda-object/tarball/master",
-    "kinda-store-mysql": "https://github.com/kinda/kinda-store-mysql/tarball/master",
-    "kinda-store-web-sql": "https://github.com/kinda/kinda-store-web-sql/tarball/master",
+    "kinda-object": "kinda/kinda-object",
+    "kinda-store-mysql": "kinda/kinda-store-mysql",
+    "kinda-store-web-sql": "kinda/kinda-store-web-sql",
     "lodash": "^2.4.1",
     "object-is": "0.0.0"
   }
