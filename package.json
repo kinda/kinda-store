@@ -13,11 +13,8 @@
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "dependencies": {
-    "bytewise": "^0.7.0",
     "kinda-object": "kinda/kinda-object",
     "kinda-store-mysql": "kinda/kinda-store-mysql",
-    "kinda-store-web-sql": "kinda/kinda-store-web-sql",
-    "lodash": "^2.4.1",
-    "object-is": "0.0.0"
+    "kinda-store-web-sql": "kinda/kinda-store-web-sql"
   }
 }
