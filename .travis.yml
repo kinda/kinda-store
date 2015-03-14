@@ -8,6 +8,8 @@ services:
 - mysql
 before_script:
 - mysql -e 'CREATE DATABASE IF NOT EXISTS test;'
+- mysql -e 'GRANT ALL ON test.* TO test@localhost;'
+
 cache:
   directories:
   - node_modules
