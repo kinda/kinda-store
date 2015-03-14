@@ -7,8 +7,8 @@ branches:
 services:
 - mysql
 before_script:
-- mysql -e 'CREATE DATABASE IF NOT EXISTS test;'
-- mysql -e 'GRANT ALL ON test.* TO test@localhost;'
+- mysql --user=root --execute='CREATE DATABASE IF NOT EXISTS test;'
+- mysql --user=root --execute='GRANT ALL ON test.* TO test@localhost;'
 
 cache:
   directories:
