@@ -7,7 +7,7 @@ branches:
 services:
 - mysql
 before_script:
-- mysql -e 'CREATE DATABASE kinda_store;'
+- mysql -e 'CREATE DATABASE IF NOT EXISTS test;'
 cache:
   directories:
   - node_modules
