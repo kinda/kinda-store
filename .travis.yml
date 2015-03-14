@@ -1,9 +1,13 @@
 language: node_js
 node_js:
-- '0.11'
+- '0.12'
 branches:
   only:
   - master
+services:
+- mysql
+before_script:
+- mysql -e 'CREATE DATABASE kinda_store;'
 cache:
   directories:
   - node_modules
