@@ -5,7 +5,7 @@ var assert = require('chai').assert;
 var KindaStore = require('./');
 
 suite('KindaStore', function() {
-  var store = KindaStore.create('mysql://localhost/test');
+  var store = KindaStore.create('mysql://test@localhost/test');
 
   suiteTeardown(function *() {
     yield store.delRange();
