@@ -17,12 +17,15 @@
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "dependencies": {
-    "kinda-store-mysql": "^0.1.0",
-    "kinda-store-web-sql": "^0.1.0"
+    "kinda-mysql-store": "^0.1.4",
+    "kinda-web-sql-store": "^0.1.3"
   },
   "devDependencies": {
     "chai": "^2.1.1",
     "co-mocha": "^1.1.0",
     "mocha": "^2.2.1"
+  },
+  "browser": {
+    "kinda-mysql-store": false
   }
 }
