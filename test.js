@@ -16,8 +16,11 @@ suite('KindaStore', function() {
     yield store.put(key, { firstName: 'Manu', age: 42 });
     var user = yield store.get(key);
     assert.deepEqual(user, { firstName: 'Manu', age: 42 });
-    yield store.del(key);
+    var hasBeenDeleted = yield store.del(key);
+    assert.isTrue(hasBeenDeleted);
     var user = yield store.get(key, { errorIfMissing: false });
     assert.isUndefined(user);
+    hasBeenDeleted = yield store.del(key, { errorIfMissing: false });
+    assert.isFalse(hasBeenDeleted);
   });
 });

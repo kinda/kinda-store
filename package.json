@@ -17,8 +17,8 @@
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "dependencies": {
-    "kinda-mysql-store": "^0.1.4",
-    "kinda-web-sql-store": "^0.1.3"
+    "kinda-mysql-store": "^0.1.6",
+    "kinda-web-sql-store": "^0.1.5"
   },
   "devDependencies": {
     "chai": "^2.1.1",
