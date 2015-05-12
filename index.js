@@ -11,6 +11,7 @@ var Factory = {
     case 'mysql':
       return require('kinda-mysql-store').create(url, options);
     case 'websql':
+    case 'sqlite':
       return require('kinda-web-sql-store').create(url, options);
     default:
       throw new Error('unknown protocol');
