@@ -12,18 +12,13 @@
     "release-patch": "npm run release --release-type=patch",
     "release-minor": "npm run release --release-type=minor",
     "release-major": "npm run release --release-type=major",
-    "test": "mocha --harmony --ui tdd"
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "dependencies": {
     "kinda-mysql-store": "^0.1.6",
     "kinda-web-sql-store": "^0.1.5"
-  },
-  "devDependencies": {
-    "chai": "^2.1.1",
-    "co-mocha": "^1.1.0",
-    "mocha": "^2.2.1"
   },
   "browser": {
     "kinda-mysql-store": false
